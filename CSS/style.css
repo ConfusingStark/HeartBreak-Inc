@@ -1,0 +1,144 @@
+/* Fonts
+font-family: 'Fruktur', cursive;
+font-family: 'Modern Antiqua', cursive;
+font-family: 'Rosario', sans-serif; */
+
+body{
+  background: rgb(0,0,0);
+background: linear-gradient(45deg, rgba(0,0,0,1) 33%, rgba(204,67,167,1) 100%, rgba(204,67,167,1) 100%);
+}
+
+#slogan{
+  font-size: 1.35em;
+  margin-left: 20px;
+  font-family: 'Modern Antiqua', cursive;
+  font-weight: 550;
+}
+
+.menu{
+  font-size: 1.4em;
+  margin-right: 20px; 
+  font-family: 'Modern Antiqua', cursive;
+}
+
+header{
+  margin: 80px 0 80px 0;
+}
+
+#dibujo{
+  border-radius: 30px;
+  margin-left: 135px;
+  animation: movimiento 2.5s ease-in-out infinite
+}
+
+.nota{
+  text-align:center;
+  font-family: 'Modern Antiqua', cursive;
+  font-size: 1.4em;
+  color: white;
+}
+
+#principal{
+  font-family: 'Fruktur', cursive;
+  color:black;
+  font-size: 5em;
+  text-align:center;
+}
+
+#presentacion{
+  text-align:center;
+  font-family: 'Modern Antiqua', cursive;
+  font-size: 2em;
+  color: white;
+  margin-top:20px;
+}
+
+.titulos{
+  font-family: 'Fruktur', cursive;
+  color:white;
+  font-size: 3em;
+  text-align:center;
+}
+
+.textos{
+  font-family: 'Modern Antiqua', cursive;
+  font-size: 2em;
+  color: white;
+  text-align:center;
+  margin-bottom: 120px;
+}
+
+#dibujoweb{
+  border-radius: 50px;
+  margin-bottom: 120px;
+}
+
+#dibujoweb:hover{
+  animation: movimiento2 2.5s ease-in-out infinite 
+}
+
+#dibujovideojuego:hover{
+  animation: movimiento2 2.5s ease-in-out infinite
+}
+
+#dibujoprogramacion:hover{
+  animation: movimiento2 2.5s ease-in-out infinite
+}
+
+#dibujovideojuego{
+  border-radius: 50px;
+  width:95%;
+  margin-bottom: 120px;
+}
+
+#dibujoprogramacion{
+  border-radius: 50px;
+  margin-bottom: 120px;
+  width:97%;
+  margin-left: 15px;
+}
+
+footer{
+  background-color:#000000;
+  border: 4px solid white;
+  min-height: 400px;
+}
+
+#titulofooter{
+  font-family: 'Rosario', sans-serif;
+  font-weight: 900;
+  color:white;
+  text-align:center;
+  margin-left: 110px;
+}
+
+#textofooter{
+  font-family: 'Rosario', sans-serif;
+  color:white;
+  text-align:center;
+  margin-left: 110px;
+  font-size: 1.4em;
+}
+
+#dibujofooter{
+  margin-left: 180px;
+  margin-top: 20px
+}
+
+#dibujofooter:hover{
+  filter: grayscale(1);
+}
+
+@keyframes movimiento{
+  0%{transform: translateX(0);}
+  50%{transform: translateX(30px);}
+  100%{transform:translateX(0);}
+}
+
+@keyframes movimiento2{
+  0%{transform: scale(1);}
+  25%{transform: scale(1.05);}
+  50%{transform: scale(1);}
+  75%{transform: scale(0.95);}
+  100%{transform: scale(1);}
+}
